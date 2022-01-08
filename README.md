@@ -52,7 +52,8 @@
  ## 보드 
  
   * STMP32
-
-  <img src="https://user-images.githubusercontent.com/46912845/148629437-e4f0b754-ce35-453d-b124-c9deccb18b62.jpg" width="70%"></img>  
+  * 
+  <img src="https://user-images.githubusercontent.com/46912845/148635193-c9cab5cb-cbf6-4cb3-8d19-4dd4e7b164d3.jpg" width="70%"></img>  
   
-  * 센서 : 비 접촉 온도 센서 MLX90614
+  * STM32용 쉴드 제작 ( 서보 몬터 제어 2개 / 디지털 출력 2개 - 레지저 포인트)
+  
