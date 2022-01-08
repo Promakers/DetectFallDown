@@ -4,7 +4,7 @@
 
 ## 시연 동영상
 
-[![Watch the video](https://user-images.githubusercontent.com/46912845/148653723-897950c6-861c-4e27-8f1f-7564d091bcd8.jpg)](https://youtu.be/493mAYvdQsk)
+[![Watch the video](https://user-images.githubusercontent.com/46912845/148663657-fb4595ad-78ec-48e4-9aa2-8caaac9048f2.jpg)](https://youtu.be/493mAYvdQsk)
 * 이미지 클릭시 동영상이 재생 됩니다.
 
 
