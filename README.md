@@ -33,7 +33,7 @@
 ## 파일 리스트
 
 
-### UI (최윤규)
+###  (최윤규)
 
   + KioskCafeteriaTutorial 예제를 활용한 키오스크 구현
   + https://github.com/Promakers/TopMaker2021/tree/main/KioskCafeteriaTutorial 참조
@@ -42,18 +42,15 @@
   + Web API Server
   + Upload된 이미지의 마스크 유무를 판단하여 JSON형태로 결과 반환
   
-### Tizen_respapi_test (권준호)
-  + 타이젠에서 Res API 이미지 확인 테스트 코드
+### AWS (권준호)
+  + AWS  MQTT 통신 & 대쉬 보드
 
-### STM32
+### STM32 (김도혁)
 
   + PWM 신호 제어 / 디지털 IO 제어 / 시리얼 명령어 처리  
 
  ## 보드 
  
-  * STMP32
+  * STMP32 (쉴드 제작 - PWM제어 / 디지털 IO 제어)
   
   <img src="https://user-images.githubusercontent.com/46912845/148635193-c9cab5cb-cbf6-4cb3-8d19-4dd4e7b164d3.jpg" width="50%"></img>  
-  
-  * STM32용 쉴드 제작 ( 서보 몬터 제어 2개 / 디지털 출력 2개 - 레지저 포인트)
-  
