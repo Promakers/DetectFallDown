@@ -1,6 +1,6 @@
 ## 프로젝트 제목
 
-* 가정내 쓰러짐 감지 및 안내 스마트 기기
+* 낙상 감지 및 방지 스마트 기기 (갑지기 일어날때 어지러증에 위한 사고 감지 및 이동 안내)
 
 ## 시연 동영상
 
@@ -18,9 +18,9 @@
 
 ## 프로젝트 배경 혹은 목적
 
-  <img src="https://user-images.githubusercontent.com/46912845/131213363-608d0e82-baed-48f6-909f-dc7a446c14c9.JPG" width="70%"></img>
-  <img src="https://user-images.githubusercontent.com/46912845/131213365-8ead6984-0a1f-40b9-9af9-dfd34c7bd5ac.JPG" width="70%"></img>  
-  <img src="https://user-images.githubusercontent.com/46912845/131219197-695edbd9-3f0d-40a3-be3b-1dedb05d3cd5.jpg" width="70%"></img>
+  <img src="https://user-images.githubusercontent.com/46912845/148629437-e4f0b754-ce35-453d-b124-c9deccb18b62.jpg" width="70%"></img>    
+  <img src="https://user-images.githubusercontent.com/46912845/148629490-a4ebd7ea-0872-496b-a5fa-8dfb277a8cfb.jpg" width="70%"></img>  
+  <img src="https://user-images.githubusercontent.com/46912845/148629494-c1907436-c3d5-46f9-a3f6-eef55253b1dd.jpg" width="70%"></img>    
   
   + MLX90614 비접촉 온도센서 연동 성공
   + HC-SR04 (초음파 센서) - 정확한 Timer 10u Sec제어와 Start Time / End Time 방법을 찾지 못하여 다음번에 도전
@@ -51,5 +51,9 @@
 
  ## 보드 
  
-  * PI4  : Kiosk 화면 조작 및 관련 처리 
-  * 센서 : 비 접촉 온도 센서 MLX90614
+  * STMP32
+  
+  <img src="https://user-images.githubusercontent.com/46912845/148635193-c9cab5cb-cbf6-4cb3-8d19-4dd4e7b164d3.jpg" width="50%"></img>  
+  
+  * STM32용 쉴드 제작 ( 서보 몬터 제어 2개 / 디지털 출력 2개 - 레지저 포인트)
+  
