@@ -45,9 +45,9 @@
 ### Tizen_respapi_test (권준호)
   + 타이젠에서 Res API 이미지 확인 테스트 코드
 
-### MLX90614 비접촉 온도 센서 (김도혁)
+### STM32
 
-  + 아두이노 https://github.com/adafruit/Adafruit-MLX90614-Library 참조하여 타이젠 C# 클래스 제작  
+  + PWM 신호 제어 / 디지털 IO 제어 / 시리얼 명령어 처리  
 
  ## 보드 
  
