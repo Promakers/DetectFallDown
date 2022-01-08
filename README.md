@@ -18,9 +18,9 @@
 
 ## 프로젝트 배경 혹은 목적
 
-  <img src="https://user-images.githubusercontent.com/46912845/131213363-608d0e82-baed-48f6-909f-dc7a446c14c9.JPG" width="70%"></img>
-  <img src="https://user-images.githubusercontent.com/46912845/131213365-8ead6984-0a1f-40b9-9af9-dfd34c7bd5ac.JPG" width="70%"></img>  
-  <img src="https://user-images.githubusercontent.com/46912845/131219197-695edbd9-3f0d-40a3-be3b-1dedb05d3cd5.jpg" width="70%"></img>
+  <img src="https://user-images.githubusercontent.com/46912845/148629435-053c4a9c-6e41-478a-abfc-27700ee7852c.jpg" width="70%"></img>
+  <img src="https://user-images.githubusercontent.com/46912845/148629437-e4f0b754-ce35-453d-b124-c9deccb18b62.jpg" width="70%"></img>  
+
   
   + MLX90614 비접촉 온도센서 연동 성공
   + HC-SR04 (초음파 센서) - 정확한 Timer 10u Sec제어와 Start Time / End Time 방법을 찾지 못하여 다음번에 도전
