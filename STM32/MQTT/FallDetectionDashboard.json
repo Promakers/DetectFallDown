@@ -1,0 +1,226 @@
+[
+    {
+        "id": "a7c247b6.f3d1b8",
+        "type": "tab",
+        "label": "Fall Detection",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "dce84323.ded4e",
+        "type": "mqtt in",
+        "z": "a7c247b6.f3d1b8",
+        "name": "",
+        "topic": "dt/stm32l475e/sensor-data/topic",
+        "qos": "1",
+        "datatype": "auto",
+        "broker": "cf394855.951c28",
+        "nl": false,
+        "rap": false,
+        "x": 230,
+        "y": 140,
+        "wires": [
+            [
+                "3d7a7b32.5a0b24"
+            ]
+        ]
+    },
+    {
+        "id": "3d7a7b32.5a0b24",
+        "type": "json",
+        "z": "a7c247b6.f3d1b8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 510,
+        "y": 140,
+        "wires": [
+            [
+                "e9d4675c.055878",
+                "bcebf5c5.d60458",
+                "7ff4ec31.ddf7b4"
+            ]
+        ]
+    },
+    {
+        "id": "e9d4675c.055878",
+        "type": "function",
+        "z": "a7c247b6.f3d1b8",
+        "name": "Humidity",
+        "func": "msg.payload = msg.payload.Hum\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 720,
+        "y": 140,
+        "wires": [
+            [
+                "9a0695cf.cf42b8"
+            ]
+        ]
+    },
+    {
+        "id": "bcebf5c5.d60458",
+        "type": "function",
+        "z": "a7c247b6.f3d1b8",
+        "name": "Temperature",
+        "func": "msg.payload = msg.payload.Tem\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 240,
+        "wires": [
+            [
+                "9e599e0d.e1ff1"
+            ]
+        ]
+    },
+    {
+        "id": "7ff4ec31.ddf7b4",
+        "type": "function",
+        "z": "a7c247b6.f3d1b8",
+        "name": "Emergency",
+        "func": "msg.payload = msg.payload.Emerg\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 340,
+        "wires": [
+            [
+                "e6439e00.d24c5"
+            ]
+        ]
+    },
+    {
+        "id": "9a0695cf.cf42b8",
+        "type": "ui_gauge",
+        "z": "a7c247b6.f3d1b8",
+        "name": "",
+        "group": "f9c34dde.1e2f4",
+        "order": 1,
+        "width": "9",
+        "height": "9",
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "% RH",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 920,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "9e599e0d.e1ff1",
+        "type": "ui_gauge",
+        "z": "a7c247b6.f3d1b8",
+        "name": "",
+        "group": "f9c34dde.1e2f4",
+        "order": 1,
+        "width": "9",
+        "height": "9",
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "' C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 930,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "e6439e00.d24c5",
+        "type": "ui_text",
+        "z": "a7c247b6.f3d1b8",
+        "group": "f9c34dde.1e2f4",
+        "order": 4,
+        "width": "10",
+        "height": "3",
+        "name": "",
+        "label": "Emergency:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 930,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "cf394855.951c28",
+        "type": "mqtt-broker",
+        "name": "AP-NORTHEAST-2",
+        "broker": "a1j6k3sv1ee20z-ats.iot.ap-northeast-2.amazonaws.com",
+        "port": "8883",
+        "tls": "743b6e61.b0756",
+        "clientid": "",
+        "usetls": true,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f9c34dde.1e2f4",
+        "type": "ui_group",
+        "name": "Chart",
+        "tab": "17d09b07.741a55",
+        "order": 1,
+        "disp": true,
+        "width": 15,
+        "collapse": false
+    },
+    {
+        "id": "743b6e61.b0756",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "7650757670d4c799b72bdc556444c9684f9ac35bf0974e246e958ad2612a52a2-certificate.pem.crt",
+        "keyname": "7650757670d4c799b72bdc556444c9684f9ac35bf0974e246e958ad2612a52a2-private.pem.key",
+        "caname": "AmazonRootCA1.pem",
+        "servername": "",
+        "verifyservercert": true
+    },
+    {
+        "id": "17d09b07.741a55",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
