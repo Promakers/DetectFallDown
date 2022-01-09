@@ -136,8 +136,6 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 
-  printf(" Pro ");
-
   uint8_t a;
 
   HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_3); // Add PWM Servo Motor
@@ -149,51 +147,6 @@ int main(void)
 
   while (1)
   {
-
-	  /*
-	  HAL_GPIO_WritePin(LASER1_GPIO_Port, LASER1_Pin, GPIO_PIN_SET);
-	  HAL_GPIO_WritePin(LASER2_GPIO_Port, LASER2_Pin, GPIO_PIN_SET);
-
-	  HAL_Delay( 2000 );
-
-	  HAL_GPIO_WritePin(LASER1_GPIO_Port, LASER1_Pin, GPIO_PIN_RESET);
-	  HAL_GPIO_WritePin(LASER2_GPIO_Port, LASER2_Pin, GPIO_PIN_RESET);
-
-	  HAL_Delay( 1000 );
-
-
-
-      //2ms Pwm - Servo motor arm rotates to 180 degree
-	  __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_3, 110);
-	  __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_4, 110);
-	  HAL_Delay(1000); // 1000ms
-
-     //1.5ms Pwm - Servo motor arm rotates to 90 degree
-     __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_3, 75);
-     __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_4, 75);
-     HAL_Delay(1000); // 1000ms
-
-     //1ms Pwm - Servo motor arm rotates to 0 degree
-     __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_3, 40);
-     __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_4, 40);
-     HAL_Delay(1000); // 1000ms
-	  */
-
-
-	  //	HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
-
-		/*
-		HAL_GPIO_WritePin(LASER1_GPIO_Port, LASER1_Pin, GPIO_PIN_SET);
-		HAL_GPIO_WritePin(LASER2_GPIO_Port, LASER2_Pin, GPIO_PIN_SET);
-
-
-		HAL_Delay( 1000 );
-
-		HAL_GPIO_WritePin(LASER1_GPIO_Port, LASER1_Pin, GPIO_PIN_RESET);
-		HAL_GPIO_WritePin(LASER2_GPIO_Port, LASER2_Pin, GPIO_PIN_RESET);
-
-		HAL_Delay( 1000 );
-		*/
 
 
 	  if( HAL_UART_Receive( &huart1, &a, 1, 10) == HAL_OK)
@@ -248,8 +201,6 @@ int main(void)
 		     __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_3, 90);
 		     __HAL_TIM_SetCompare(&htim3, TIM_CHANNEL_4, 55);
 		}
-
-
 
 	  }
 
