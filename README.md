@@ -18,11 +18,10 @@
 
 ## 프로젝트 배경 혹은 목적
 
-  <img src="https://user-images.githubusercontent.com/46912845/148668362-0e313579-86db-4096-9d7d-7750fd5d5eb8.JPG" width="80%"></img>   
-  <img src="https://user-images.githubusercontent.com/46912845/148629490-a4ebd7ea-0872-496b-a5fa-8dfb277a8cfb.jpg" width="80%"></img>  
-  <img src="https://user-images.githubusercontent.com/46912845/148668364-ca6a30aa-7f8d-448d-9644-e4a9be746d26.JPG" width="80%"></img>    
-  <img src="https://user-images.githubusercontent.com/46912845/148668365-eebd2d01-8e92-49d4-ad3a-5895b4df14bf.JPG" width="80%"></img>  
-  <img src="https://user-images.githubusercontent.com/46912845/148668366-a1c4cfd7-261b-4364-af2c-565eb3f5dafc.JPG" width="80%"></img>  
+  <img src="https://user-images.githubusercontent.com/46912845/148668362-0e313579-86db-4096-9d7d-7750fd5d5eb8.JPG" width="100%"></img>   
+  <img src="https://user-images.githubusercontent.com/46912845/148629490-a4ebd7ea-0872-496b-a5fa-8dfb277a8cfb.jpg" width="100%"></img>  
+  <img src="https://user-images.githubusercontent.com/46912845/148668364-ca6a30aa-7f8d-448d-9644-e4a9be746d26.JPG" width="100%"></img>    
+  <img src="https://user-images.githubusercontent.com/46912845/148668365-eebd2d01-8e92-49d4-ad3a-5895b4df14bf.JPG" width="100%"></img>  
 
 ## 파일 리스트
 
