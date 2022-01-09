@@ -4,7 +4,7 @@
 
 ## 시연 동영상
 
-[![Watch the video](https://user-images.githubusercontent.com/46912845/148663657-fb4595ad-78ec-48e4-9aa2-8caaac9048f2.jpg)](https://youtu.be/Oo5SCTZqIuM)
+[![Watch the video](https://user-images.githubusercontent.com/46912845/148663657-fb4595ad-78ec-48e4-9aa2-8caaac9048f2.jpg)](https://youtu.be/7yQbqBWsUC8)
 * 이미지 클릭시 동영상이 재생 됩니다.
 
 
@@ -27,7 +27,7 @@
 
 ###  FallDetectionApp (최윤규)
 
-  + Unity를 통한 MQTT 통신
+  + Unity사용한 넘어진 동작 인식 및 MQTT 통신 
   
 ### AWS (권준호)
   + AWS  MQTT 통신 & 대쉬 보드
